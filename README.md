@@ -10,6 +10,10 @@ Create a workflow `.yml` file in your `.github/workflows` directory. An [example
 
 This Action requires that the environment variable `GITHUB_TOKEN` be set correctly.
 
+### Inputs
+
+- `ref` : The tag to get the URL for - If unset defaults to the current github tag
+
 ### Outputs
 
 For more information on these outputs, see the [API Documentation](https://developer.github.com/v3/repos/releases/#response-4) for an example of what these outputs look like
