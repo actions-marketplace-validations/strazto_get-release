@@ -1,4 +1,4 @@
-name: 'Get the upload URL for a release'
+name: 'Get the upload URL for a release given a tag'
 description: 'Get the upload URL for a release for a tag in your repository'
 author: 'Matthew Strasiotto'
 inputs:
