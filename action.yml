@@ -1,6 +1,11 @@
 name: 'Get the upload URL for a release'
 description: 'Get the upload URL for a release for a tag in your repository'
-author: 'GitHub'
+author: 'Matthew Strasiotto'
+inputs:
+  ref:
+    description: 'The release ref to get the URL for (if unset uses reference from current context)'
+    required: true
+    default: "${{ github.ref }}"
 outputs:
   id:
     description: 'The ID of the release'
